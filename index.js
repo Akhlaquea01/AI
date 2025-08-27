@@ -31,7 +31,7 @@ const model = new ChatMistralAI({
     model: "mistral-large-latest",
     apiKey: MISTRAL_API_KEY,
     temperature: 0.3,
-    maxTokens: 256, // optional
+    // maxTokens: 256, // optional
 });
 
 /**
