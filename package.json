@@ -1,0 +1,19 @@
+{
+  "name": "ai-learning",
+  "version": "1.0.0",
+  "description": "Learn AI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index.js",
+    "dev": "node --env-file=.env --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.72",
+    "@langchain/mistralai": "^0.2.1",
+    "langchain": "^0.3.31"
+  }
+}
